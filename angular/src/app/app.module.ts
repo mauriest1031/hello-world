@@ -13,7 +13,7 @@ import { BlogComponent } from './blog/blog.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
-
+  {path: 'blog', component: BlogComponent}
 ];
 
 @NgModule({
